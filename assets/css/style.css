@@ -11,6 +11,7 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    z-index: 100;
     /*position: fixed;
     width: 100%;*/
 }
@@ -45,6 +46,7 @@ header nav ul li a{
 section {
     padding: 60px;
 }
+
 /* style the Hero */
 
 .hero {
@@ -86,7 +88,6 @@ section {
     font-size: 16px;
     border: none;
 }
-
 
 .form-input {
     border: 1px solid #024e76;
