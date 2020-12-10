@@ -258,6 +258,28 @@ header nav ul li a {
     font-size: 17px;
 }
 
+/* apply styles for service section */
+
+.service-grid-container {
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.service-grid-item {
+    background-color: orange;
+    border: solid;
+    padding: 1em;
+    color: black;
+}
+.box1 {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+}
+
 /* apply styles to Reach out section */
 
 .reach {
